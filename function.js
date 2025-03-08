@@ -17,3 +17,14 @@ function deret(n) {
     return n + deret(n - 1);
 }
 console.log(deret(5));
+
+// 5
+arr = [1, 2, 3, 4, 5];
+function kaliDua(arr) {
+    let result = [];
+    for (let angka of arr) {
+        result.push(angka * 2);
+    }
+    return result;
+}
+console.log(kaliDua(arr));
